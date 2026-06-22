@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "../components/site/PageHero";
 import { ProductSidebar } from "../components/site/ProductSidebar";
-import { Cog, Car, Disc, Drill, Wrench, Hammer, ConstructionIcon as Crane, Zap, Wheat } from "lucide-react";
+import { Cog, Car, Disc, Drill, Wrench, Hammer, Construction, Zap, Wheat } from "lucide-react";
 
 export const Route = createFileRoute("/industries")({
   head: () => ({
@@ -24,7 +24,7 @@ const ITEMS = [
   { label: "BORING INDUSTRIES", icon: Drill },
   { label: "OTHER MACHINING INDUSTRIES", icon: Cog },
   { label: "FABRICATION INDUSTRIES", icon: Wrench },
-  { label: "HOIST CRANE MANUFACTURERS", icon: Crane },
+  { label: "HOIST CRANE MANUFACTURERS", icon: Construction },
   { label: "LASER CUTTING INDUSTRIES", icon: Zap },
   { label: "AGRICULTURE RELATED INDUSTRIES", icon: Wheat },
 ];
