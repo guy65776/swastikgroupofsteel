@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "../components/site/PageHero";
 import { ProductSidebar } from "../components/site/ProductSidebar";
-import { Cog, Car, Disc, Drill, Wrench, Hammer, Crane, Zap, Wheat } from "lucide-react";
+import { Cog, Car, Disc, Drill, Wrench, Hammer, ConstructionIcon as Crane, Zap, Wheat } from "lucide-react";
 
 export const Route = createFileRoute("/industries")({
   head: () => ({
